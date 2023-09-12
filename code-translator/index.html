@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript to Python Translator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="heading">
+      <h4>AI Code Translator</h4>
+     <!-- Add this container div for buttons -->
+<div id="button-container">
+    <button id="translate">Translate</button>
+    <button id="debug">Debug</button>
+    <button id="qualityCheck">Quality Check</button>
+</div>
+
+    </div>
+   <div id="main">
+   
+        <div id="chat-form">
+        <p>input</p>
+        <select name="" id="select_input_language">
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="C++">C++</option>
+            <option value="C#">C#</option>
+            <option value="TypeScript">TypeScript</option>
+            <option value="PHP">PHP</option>
+            <option value="Swift">Swift</option>
+            <option value="Go">Go</option>
+            <option value="Ruby">Ruby</option>
+        </select>
+    <textarea id="chat-input" ></textarea>
+   
+</div>
+<div id="output">
+    <p>output</p>
+    <select name="" id="select_output_language">
+        <option value="Python">Python</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="Java">Java</option>
+        <option value="C++">C++</option>
+        <option value="C#">C#</option>
+        <option value="TypeScript">TypeScript</option>
+        <option value="PHP">PHP</option>
+        <option value="Swift">Swift</option>
+        <option value="Go">Go</option>
+        <option value="Ruby">Ruby</option>
+    </select>
+    <textarea id="chat-message" ></textarea>
+</div>
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

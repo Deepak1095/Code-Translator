@@ -1,0 +1,107 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Global styles for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Container for the main content */
+#main {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* Chat form styles */
+#chat-form {
+    width: 100%;
+}
+
+/* Textarea styles */
+textarea {
+    width: 100%;
+    height: 400px;
+    background-color: #1a1b26;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Output container styles */
+#output {
+    width: 100%;
+}
+
+/* Heading styles */
+#heading {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Paragraph styles */
+p {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Select styles */
+select {
+    background-color: #10141b;
+    height: 35px;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container for buttons */
+#button-container {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 20px; /* Add more space between buttons */
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+/* Button styles */
+button {
+    width: 100%; 
+    padding: 10px 20px; /* Add padding to make buttons larger */
+    font-size: 24px; /* Increase font size for better visibility */
+    border: none;
+    border-radius: 5px; /* Add rounded corners */
+    background-color: #007bff; /* Cool blue color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
